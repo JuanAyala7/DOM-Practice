@@ -1,0 +1,10 @@
+document;
+document.firstElementChild;
+document.firstElementChild.firstElementChild;
+document.firstElementChild.lastElementChild;
+document.firstElementChild.lastElementChild.firstElementChild;
+var heading = document.firstElementChild.lastElementChild.firstElementChild;
+heading
+heading.innerHTML = "Good Bye";
+heading.style.color="red";
+document.querySelector("input").click();
