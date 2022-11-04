@@ -1,0 +1,4 @@
+document.querySelector("h1").style.fontSize="10rem";
+document.querySelector("h1").style.padding="30%";
+document.querySelector("h1").style.visiblity="hidden";
+document.querySelector(".btn").style.backgroundColor="yellow";
