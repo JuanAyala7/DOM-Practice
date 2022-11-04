@@ -1,0 +1,22 @@
+document.querySelector("h1");
+<h1 id=​"title">​Good Bye​</h1>​
+document.querySelector("#title");
+<h1 id=​"title">​Good Bye​</h1>​
+document.querySelector(".btn");
+<button class=​"btn" style=​"color:​ red;​">​Click Me​</button>​
+document.querySelector("li a");
+<a href=​"https:​/​/​www.google.com">​Google​</a>​
+document.querySelector("a");
+<a href=​"https:​/​/​www.google.com">​Google​</a>​
+document.querySelector("li.item");
+<li class=​"item">​…​</li>​::marker​<a href=​"https:​/​/​www.google.com">​Google​</a>​</li>​
+document.querySelector("#list a");
+<a href=​"https:​/​/​www.google.com">​Google​</a>​
+document.querySelector("#list .item");
+<li class=​"item">​…​</li>​
+document.querySelectorAll ("#list .item");
+NodeList(3) [li.item, li.item, li.item]
+document.querySelectorAll ("#list .item")[2].style.color ="blue";
+'blue'
+document.querySelector("li a").style.color= "red";
+'red'
