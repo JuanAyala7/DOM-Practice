@@ -1,0 +1,7 @@
+//From JavaScript via wikipedia
+
+$0.addEventListener("click", function(event) {
+    console.log(event);
+});
+
+PointerEvent {isTrusted: true, pointerId: 1, width: 1, height: 1, pressure: 0, …}
